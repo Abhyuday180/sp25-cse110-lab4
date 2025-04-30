@@ -92,3 +92,14 @@ Question 15:
 == converts types when they aren't the same and is considered loose-equality.
 === requires the type to be the same and is considered strict-equality.
 === is safer.
+
+Question 17:
+[2, 4, 6] will be the result. This is because for every iteration, callback is
+called on the number in the array and it is pushed to newArr.
+
+Question 19:
+1
+4
+3
+2
+will be printed, in this order.
