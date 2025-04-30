@@ -131,7 +131,11 @@ called on the number in the array and it is pushed to newArr.
 Question 19:
 
 1
+
 4
+
 3
+
 2
+
 will be printed, in this order.
