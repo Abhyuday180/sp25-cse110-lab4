@@ -1,5 +1,6 @@
-setInterval(() => 
+function currentTime() 
 {
-    const now = new Date();          
-    console.log(now.toLocaleTimeString());
-}, 1000);   
+    const date = new Date();
+    console.log(date.toLocaleTimeString());
+}
+setInterval(currentTime, 1000);
