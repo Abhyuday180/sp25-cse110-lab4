@@ -52,69 +52,68 @@ Question 11:
 contents aren't.
 
 Question 12:
+
 A:
-
 student.name
+
 B:
-
 student["Grad Year"]
+
 C:
-
 student.greeting()
+
 D:
-
 student["Favourite Teacher"].name
-E:
 
+E:
 student.courseLoad[0]
 
 
 Question 13:
+
 A: 
-
 "32", because one of the operands was a string.
+
 B:
-
 1, because - is always numeric.
+
 C:
-
 3, because null becomes 0 in numeric operations.
+
 D:
-
 "3null", because one of the operands was a string.
+
 E:
-
 4, because true becomes 1 in numeric operations.
+
 F:
-
 0, because null and false both become 0 in numeric operations.
+
 G:
-
 "3undefined", because one of the operands was a string.
-H:
 
+H:
 NaN, because undefined becomes NaN in numeric operations and 3-NaN=NaN.
 
 Question 14:
+
 A: 
-
 true, because when comparing values of different types, JavaScript converts 
 the values to numbers.
+
 B:
-
 false, since both are strings and '12' is lexicographically "smaller".
-C:
 
+C:
 true, because when comparing values of different types, JavaScript converts 
 the values to numbers.
+
 D:
-
 false, === requires that the type also must be the same.
-E:
 
+E:
 false, true becomes 1 in numeric operations and 1 != 2.
 F:
-
 true, because Boolean converts 2 into true and true === true 
 (same type and value)
 
